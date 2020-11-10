@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="{{url_for('static',filename='css/bootstrap/bootstrap.min.css')}}"
+    />
+    <link
+      rel="stylesheet"
+      href="{{url_for('static',filename='css/layout.css')}}"
+    />
+    <title>Glitchers:Nasscom</title>
+  </head>
+  <body>
+    <!-- Nav Bar -->
+    <!-- <nav class="navbar navbar-light bg-light"> -->
+    <nav class="navbar navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Covid19</a>
+      <div>
+        <button type="button" class="btn btn-light">
+          <a href="https://github.com/BlankRiser" class="btn-link">Github</a>
+        </button>
+      </div>
+    </nav>
+
+    {% block content %} {% endblock content %}
+  </body>
+</html>

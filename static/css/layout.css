@@ -1,0 +1,9 @@
+.btn-link {
+  text-decoration: none;
+  color: #ff9a9e;
+  transition: 0.2s ease all;
+}
+.btn-link:hover {
+  text-decoration: none;
+  color: sandybrown;
+}
